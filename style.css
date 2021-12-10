@@ -55,5 +55,11 @@ h6 {
 } */
 .person2,
 .person5 {
-  margin-bottom: -1rem;
+  margin-top: 4rem;
+}
+.person {
+  display: flex;
+}
+.person span {
+  /* transform: rotateZ(90deg); */
 }
