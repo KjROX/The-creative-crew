@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+.main-head {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  padding: 4rem 1rem;
+  min-height: 20vh;
+  flex-wrap: wrap;
+}
+.name {
+  flex: 1 1 40rem;
+}
+#logo {
+  font-size: 3.6rem;
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+}
+.intro {
+  flex: 1 1 40rem;
+}
+.intro h2 {
+  font-size: 1.8rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.intro p {
+  font-size: 1.8rem;
+  font-family: "Poppins", sans-serif;
+}
+main {
+  min-height: 80vh;
+  width: 70%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+img {
+  height: 20rem;
+  object-fit: cover;
+}
+h6 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+}
+/* .person2 {
+  align-self: baseline;
+} */
+.person2,
+.person5 {
+  margin-bottom: -1rem;
+}
